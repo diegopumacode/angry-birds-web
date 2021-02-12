@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+:root{
+    --black:#1B1C20;
+    --gray:#757575;
+    --white:white;
+    --green:#95EAC1;
+    --font-oswald:Oswald, sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    font-family: var(--font-oswald);    
+}
+
+button,a{
+    border: none;
+    outline: none;
+    font-family: var(--font-oswald);
+    text-decoration: none;
+    cursor: pointer;
+}
